@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.tree import _tree
 
 DIR = pathlib.Path(__file__).resolve().parent
-DATA = DIR.parent                      # monday/
+DATA = DIR.parent.parent / "monday"   # los datos viven en la carpeta de la catedra
 OUT = DIR / "outputs"; OUT.mkdir(exist_ok=True)
 CRUDO = DATA / "competencia_01_crudo.csv"
 PARQUET = DATA / "competencia_01.parquet"

@@ -1,4 +1,11 @@
-"""Tarea 4: features de historia (lags, deltas, tendencias) para detectar futuras bajas.
+"""ADELANTO DE z301 — no es parte de la consigna de z201.
+
+z201 dice explicitamente "no entre en panico... a combatir el overfitting, pero no
+hoy", asi que la separacion train/test es material de z301_Sobre_la_incertidumbre.
+Lo dejo aca porque el resultado ya esta medido, pero el notebook z201_resolucion.ipynb
+resuelve la consigna sin usarlo.
+
+Features de historia (lags, deltas, tendencias) para detectar futuras bajas.
 
 Evaluacion HONESTA: entrena en 202104 y mide la ganancia en 202105 y 202106,
 que el modelo nunca vio. Comparar sobre el train solo premia al que memoriza.

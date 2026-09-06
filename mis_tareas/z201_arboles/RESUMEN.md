@@ -1,13 +1,15 @@
 # Tarea `z201_Sobre_Árboles` — resultados
 
-Todo corrido local sobre `monday/competencia_01_crudo.csv` (6 períodos, 202103–202108).
+Resumen de resultados. La resolucion explicada esta en `z201_resolucion.ipynb`; esto es la version corta.
+
+Corrido local sobre `monday/competencia_01_crudo.csv` (6 períodos, 202103–202108).
 Scripts en orden: `01_target` → `02_grid_arboles` → `03_plots` → `04_metricas_corte`
 → `05_eda_periodos` → `06_features` → `07_eda_graficos`. Salidas en `outputs/`.
 
 Entorno: `.venv` del repo (`duckdb`, `scikit-learn`, `seaborn`, `matplotlib` instalados).
 
 ```bash
-.venv/bin/python monday/tarea/01_target.py
+.venv/bin/python mis_tareas/z201_arboles/01_target.py
 ```
 
 ---
