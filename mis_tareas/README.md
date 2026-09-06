@@ -7,6 +7,12 @@ no los toco, así que traer cambios del repo oficial nunca genera conflictos ac�
 | carpeta | consigna original | estado |
 |---|---|---|
 | `z201_arboles/` | `monday/z201_Sobre_Árboles.ipynb` | resuelta |
+| `z402_feature_engineering_sql/` | `monday/z402_Feature_Engineering_en_SQL.ipynb` | resuelta |
+| `z301_incertidumbre/` | `monday/z301_Sobre_la_incertidumbre.ipynb` | pendiente |
+| `z401_random_forest/` | `monday/z401_Fuego_contra_fuego.ipynb` | pendiente |
+
+El orden sugerido para las pendientes es `z301` y después `z401`: para mejorar un random
+forest hay que poder afirmar que uno es mejor que otro, que es lo que enseña `z301`.
 
 ## Cómo leer cada carpeta
 
