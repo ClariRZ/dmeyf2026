@@ -1,0 +1,6 @@
+# El .gitignore de la catedra ignora *.md y *.csv en todo el repo.
+# Aca los quiero: son el informe y las tablas de resultados.
+!RESUMEN.md
+!outputs/*.csv
+
+__pycache__/
