@@ -9,10 +9,9 @@ no los toco, así que traer cambios del repo oficial nunca genera conflictos ac�
 | `z201_arboles/` | `monday/z201_Sobre_Árboles.ipynb` | resuelta |
 | `z402_feature_engineering_sql/` | `monday/z402_Feature_Engineering_en_SQL.ipynb` | resuelta |
 | `z301_incertidumbre/` | `monday/z301_Sobre_la_incertidumbre.ipynb` | resuelta |
-| `z401_random_forest/` | `monday/z401_Fuego_contra_fuego.ipynb` | pendiente |
+| `z401_random_forest/` | `monday/z401_Fuego_contra_fuego.ipynb` | resuelta |
 
-Queda `z401`. Conviene hacerla después de `z301`, porque para mejorar un random forest
-hay que poder afirmar que uno es mejor que otro.
+Las cuatro tareas de la serie `monday/` están resueltas.
 
 ## Cómo leer cada carpeta
 
