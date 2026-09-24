@@ -1,0 +1,48 @@
+tracks:
+  numeric_snapshot:
+    description: "Foto transversal con variables numericas estandarizadas"
+    methods:
+      - kmeans
+      - minibatch_kmeans
+      - agglomerative_ward
+      - agglomerative_average
+      - agglomerative_complete
+      - gaussian_mixture
+      - birch
+      - dbscan
+      - hdbscan
+      - optics
+      - spectral
+      - meanshift
+      - affinity_propagation
+  mixed:
+    description: "Variables numericas + categoricas"
+    methods:
+      - kprototypes
+      - gower_hierarchical
+      - gower_kmedoids
+  longitudinal:
+    description: "Trayectorias mensuales"
+    methods:
+      - timeseries_kmeans_euclidean
+      - timeseries_kmeans_dtw
+      - timeseries_kmeans_softdtw
+      - kshape
+      - hierarchical_trajectory
+
+evaluation:
+  internal:
+    - silhouette
+    - calinski_harabasz
+    - davies_bouldin
+  robustness:
+    - seed_stability
+    - bootstrap_stability
+    - ari_between_runs
+    - temporal_stability
+  interpretability:
+    - cluster_sizes
+    - pct_zero
+    - positive_median
+    - missingness
+    - one_vs_rest_effects

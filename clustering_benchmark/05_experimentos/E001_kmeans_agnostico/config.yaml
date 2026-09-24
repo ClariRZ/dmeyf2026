@@ -1,0 +1,36 @@
+experiment_id: E001
+name: kmeans_agnostico
+status: planned
+population: BAJA+2
+representation: agnostic
+method: kmeans
+base_seed: 17
+dataset:
+  path: null
+  hash: null
+  foto_mes: null
+  n_initial: null
+  n_final: null
+variables:
+  included: []
+  excluded: []
+preprocessing:
+  imputation: null
+  scaling: robust_scaler
+  dimensionality_reduction: none_for_clustering
+evaluation:
+  internal:
+    - silhouette
+    - calinski_harabasz
+    - davies_bouldin
+    - inertia
+  stability:
+    - multiple_seeds
+    - subsampling
+    - k_sensitivity
+    - ari
+outputs:
+  labels: labels.csv
+  metrics: metrics.csv
+  log: run.log
+  report: informe.md
